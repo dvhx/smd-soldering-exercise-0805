@@ -1,0 +1,1959 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid c15b2f75-2e10-4b71-bebb-e2b872171b92)
+
+  (paper "A4")
+
+  (title_block
+    (title "Ultimate soldering exercise")
+    (date "2024-04-26")
+    (rev "1")
+    (company "https://github.com/dvhx/ultimate-soldering-exercise")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 27.305 28.575) (size 233.68 18.415) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0e3b0446-4649-4f96-941f-62a4a86d933e)
+    (property "Sheet name" "Battery, jacks, switch, extra stuff (pots, headers, dividers)" (id 0) (at 27.305 27.8634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "battery.kicad_sch" (id 1) (at 27.305 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 100.965 98.425) (size 59.055 12.065) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2144bad2-b640-402c-9e59-723b5e1c74c4)
+    (property "Sheet name" "Pushme Pullyou" (id 0) (at 100.965 97.7134 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "pushme_pullyou.kicad_sch" (id 1) (at 100.965 111.0746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 96.52 53.975) (size 33.02 14.605) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 271c8302-d8a2-4c2e-977e-324a6eed6a16)
+    (property "Sheet name" "Emitter follower" (id 0) (at 96.52 53.2634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "emitter_follower.kicad_sch" (id 1) (at 96.52 69.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 231.14 80.645) (size 31.115 29.845) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2a37aec8-f331-4b5e-88f6-7de4e5263d48)
+    (property "Sheet name" "Wobbletron" (id 0) (at 231.14 79.9334 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "wobbletron.kicad_sch" (id 1) (at 231.14 111.0746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 164.465 81.915) (size 31.115 6.985) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3cef2940-746c-45e3-9107-83eef849fa15)
+    (property "Sheet name" "Cornish buffer" (id 0) (at 164.465 81.2034 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cornish_buffer.kicad_sch" (id 1) (at 164.465 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 165.735 118.11) (size 43.815 23.495) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4bfb669e-77cc-4b41-aa01-7ab22529f5c4)
+    (property "Sheet name" "2x non-inverting amplifier" (id 0) (at 165.735 117.3984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "noninverting_amplifier.kicad_sch" (id 1) (at 165.735 142.1896 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 27.305 53.975) (size 30.48 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 50e85761-696c-43cf-a30a-bd0ef3b7a5ca)
+    (property "Sheet name" "Jfet buffer" (id 0) (at 27.305 53.2634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "jfet_buffer.kicad_sch" (id 1) (at 27.305 69.7996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 217.17 135.255) (size 46.99 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5d24333a-d0c2-4736-9c83-4ed99302ef17)
+    (property "Sheet name" "Fuzzrite" (id 0) (at 217.17 134.5434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "fuzzrite.kicad_sch" (id 1) (at 217.17 143.4596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 81.915 120.015) (size 38.735 18.415) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5eaa9e76-5b43-478c-93f8-f29a5edd83cf)
+    (property "Sheet name" "Orange squeezer" (id 0) (at 81.915 119.3034 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "orange_squeezer.kicad_sch" (id 1) (at 81.915 139.0146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 62.23 78.74) (size 32.385 8.255) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6f9180cf-15ba-4fe0-aac0-c0c15bccbef8)
+    (property "Sheet name" "Alembic stratoblaster" (id 0) (at 62.23 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "alembic_stratoblaster.kicad_sch" (id 1) (at 62.23 87.5796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 217.17 116.205) (size 46.99 12.065) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7834f5a0-eb26-48f3-86a4-91d34cfb1b1f)
+    (property "Sheet name" "Rat" (id 0) (at 217.17 115.4934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "rat.kicad_sch" (id 1) (at 217.17 128.8546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 128.905 118.745) (size 31.75 20.955) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7db6856c-56e0-424a-afcb-36cf00770d5a)
+    (property "Sheet name" "2x differential amplifier" (id 0) (at 128.905 118.0334 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "diff_amp.kicad_sch" (id 1) (at 128.905 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 132.715 54.61) (size 25.4 13.97) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 825065db-dc11-43e9-aa2e-59e6b2cd21f3)
+    (property "Sheet name" "TL072 buffer" (id 0) (at 132.715 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "tl072_buffer.kicad_sch" (id 1) (at 132.715 69.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 99.06 79.375) (size 31.115 8.255) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8f6792ec-227f-4eb4-bb04-a25dfa84c358)
+    (property "Sheet name" "Bass boost" (id 0) (at 99.06 78.6634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "bass_boost.kicad_sch" (id 1) (at 99.06 88.2146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 26.67 78.105) (size 31.75 9.525) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 98601396-516b-4f99-b971-aae10874eaa3)
+    (property "Sheet name" "Harmonic percolator" (id 0) (at 26.67 77.3934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "harmonic_percolator.kicad_sch" (id 1) (at 26.67 88.2146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 133.985 80.645) (size 27.94 8.255) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a6e7e6c2-e06b-4f6e-8588-3ecb4408248c)
+    (property "Sheet name" "Treble boost" (id 0) (at 133.985 79.9334 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "treble_boost.kicad_sch" (id 1) (at 133.985 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 231.775 55.88) (size 30.48 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid aa76f3ed-6f50-4f29-b290-276b3f3318d1)
+    (property "Sheet name" "Fuzz face" (id 0) (at 231.775 55.1684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "fuzz_face.kicad_sch" (id 1) (at 231.775 67.8946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 161.29 55.245) (size 32.385 13.335) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid bffb26c2-67ed-45b3-88dc-db0e109e9b2d)
+    (property "Sheet name" "Electra distortion" (id 0) (at 161.29 54.5334 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "electra_distortion.kicad_sch" (id 1) (at 161.29 69.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 28.575 97.155) (size 67.945 14.605) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc)
+    (property "Sheet name" "Autowah" (id 0) (at 28.575 96.4434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "autowah.kicad_sch" (id 1) (at 28.575 112.3446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 198.755 55.245) (size 24.765 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid d0d4f553-fa9d-4102-9d57-00ae57584fca)
+    (property "Sheet name" "Green ringer" (id 0) (at 198.755 54.5334 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "green_ringer.kicad_sch" (id 1) (at 198.755 67.2596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 29.845 118.745) (size 46.99 19.685) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid ddb65161-b9bf-499c-8e93-e4bfc7609ac2)
+    (property "Sheet name" "DOD 250 Overdrive" (id 0) (at 29.845 118.0334 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "dod_250_overdrive.kicad_sch" (id 1) (at 29.845 139.0146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 198.12 81.28) (size 24.765 6.35) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f01efdb1-881c-40a2-bc25-404d9fd4e172)
+    (property "Sheet name" "Hyperion" (id 0) (at 198.12 80.5684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "hyperion.kicad_sch" (id 1) (at 198.12 88.2146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 60.96 53.975) (size 32.385 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f245ec22-b700-4dfb-bf2d-d872035f0471)
+    (property "Sheet name" "Bazz fuss" (id 0) (at 60.96 53.2634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "bazz_fuss.kicad_sch" (id 1) (at 60.96 69.7996 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 165.1 97.79) (size 59.69 12.065) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f9eb455a-f9b0-4a40-aeb8-7fec771c76fc)
+    (property "Sheet name" "Phase invertor" (id 0) (at 165.1 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "phase_invertor.kicad_sch" (id 1) (at 165.1 110.4396 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e" (page "1"))
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca" (page "2"))
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471" (page "3"))
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16" (page "4"))
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3" (page "6"))
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d" (page "7"))
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca" (page "8"))
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1" (page "9"))
+    (path "/98601396-516b-4f99-b971-aae10874eaa3" (page "10"))
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8" (page "11"))
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358" (page "12"))
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c" (page "13"))
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15" (page "14"))
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172" (page "15"))
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc" (page "16"))
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48" (page "17"))
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4" (page "18"))
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc" (page "19"))
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2" (page "20"))
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf" (page "21"))
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a" (page "22"))
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4" (page "23"))
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f" (page "24"))
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17" (page "25"))
+  )
+
+  (symbol_instances
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/9cbd6214-ee5a-47bb-877d-bfbda1e12028"
+      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/287ca886-cc1b-4ad6-b5ca-a3b87aa1416b"
+      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/3f796efe-079a-4a91-8094-5a60f08ccb50"
+      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/2f2fecf6-0443-44a0-97d4-9f831020135a"
+      (reference "#FLG04") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/d0ee53ff-5e89-4bdb-a9ac-2173ca0fdb09"
+      (reference "#FLG05") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/e13ce9a7-8af4-48dc-98a5-4dc025bf9cd3"
+      (reference "#FLG06") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/2d36fe09-9b78-48d3-badc-e9768f897b7f"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/35419ea4-9e6c-468e-9bd0-ef798a7da530"
+      (reference "#GND01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/c9a4e6d9-ed34-427f-a77b-8ee8d7383aab"
+      (reference "#GND02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/db642c55-18fd-4565-ab05-87ce7e9cd776"
+      (reference "#GND03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/550abad8-cb97-41cf-b1a9-2d5a4027d5c9"
+      (reference "#GND04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471/00672e53-7700-4e5c-a3f2-4c10b4817fa6"
+      (reference "#GND05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471/46e35542-a76a-4eff-9939-d3ed7923fb48"
+      (reference "#GND06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/d150e831-7614-4c01-a9e1-dc1d0f7f1dcf"
+      (reference "#GND07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/991c3ee7-b0b6-4ca1-ae11-57a5f9e381e1"
+      (reference "#GND08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/c629d7f9-13fa-4929-bfe7-40f77ff50944"
+      (reference "#GND09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/19361e8c-837b-42d9-b2a3-0b32eb6c8fc0"
+      (reference "#GND010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/10df5a3b-5f9f-486b-b03f-16dfd5ab6d31"
+      (reference "#GND011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/65b5559d-a027-46ec-9f9a-e3b73214fae4"
+      (reference "#GND012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/6c4551ce-f223-43ad-98b8-af893027b975"
+      (reference "#GND013") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/65e36e29-7a79-403a-a1b5-d40ad42edffb"
+      (reference "#GND014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/251dee92-c362-41db-a1bd-8b45e6177357"
+      (reference "#GND015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/6ab0df03-3bba-4c66-ae19-73cf336e8ecc"
+      (reference "#GND016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/1f06801d-dff4-4b52-9f12-fcad6d435983"
+      (reference "#GND017") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/039a5921-0fb7-4dda-9e27-fc329fe1f26d"
+      (reference "#GND018") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/addbd442-04af-40a7-9f40-99cb91fb79ea"
+      (reference "#GND019") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/0109413a-d486-4181-a8b5-67fe67d3ae84"
+      (reference "#GND020") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/93b90333-fca7-46cd-a6a8-c73a73762128"
+      (reference "#GND021") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/0d248289-cc6c-4735-a14c-24eb8e5027da"
+      (reference "#GND022") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/35ab70d5-a29d-4b68-ac2a-7d78330576e3"
+      (reference "#GND023") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/a9953838-c6d4-4a3a-bc13-074bbca900b4"
+      (reference "#GND024") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/33e6106d-3494-4b91-99af-1fea5be6f6df"
+      (reference "#GND025") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/fd3b4b39-129b-4780-adf2-6fedeb400468"
+      (reference "#GND026") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/af7e2182-749b-4988-bea8-867cef68cb52"
+      (reference "#GND027") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/162e7ee7-8c6c-49a1-91e0-19d6f527a342"
+      (reference "#GND028") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/cd94d09a-3a06-4fd5-ba26-71a9b7f32a09"
+      (reference "#GND029") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/f70c3b34-cbcd-40a8-a460-590cbd3ab020"
+      (reference "#GND030") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/12a58b46-bc9e-41b1-9b5f-59a0f40e2145"
+      (reference "#GND031") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/e3937bfc-00fb-4abf-a9f6-43081a17fcb6"
+      (reference "#GND032") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/d2040393-2299-49d0-9044-456d70e73849"
+      (reference "#GND033") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/7b34b979-6af8-4aaa-9544-af55a2424b82"
+      (reference "#GND034") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/1dd003c1-eb18-4020-b7e3-d9c7044ba73c"
+      (reference "#GND035") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/9111fed9-6cfa-491c-9a8f-5cb38d42b189"
+      (reference "#GND036") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/66789bc8-f49f-4292-894b-9ddb01443bc9"
+      (reference "#GND037") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/90ba89f0-dbcd-4611-9e50-30139abce13d"
+      (reference "#GND038") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/a4b0bf68-5026-4cc6-a891-5f5aa94e8b06"
+      (reference "#GND039") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/62089900-de73-4dcf-ae83-8eddb4b46329"
+      (reference "#GND040") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/1bdc66e6-1e07-491d-a4bc-c681c8f788b3"
+      (reference "#GND041") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/1fad7c0e-1222-4e2c-b60d-86033f546938"
+      (reference "#GND042") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/1c969670-c773-40fa-85f2-138ef748d8ed"
+      (reference "#GND043") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/5389a11a-7b98-4ae6-8b06-663ad19cd0e8"
+      (reference "#GND044") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/f4af370f-4d84-4ca5-90f8-7660429937f1"
+      (reference "#GND045") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/224611dc-26fb-49a7-be24-eedcc9a8f20e"
+      (reference "#GND046") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/6ffddf85-1931-4777-ae3b-ace62e65cf24"
+      (reference "#GND047") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/77ffb74e-3aff-4d15-8609-e9da9c395f66"
+      (reference "#GND0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/16b08ede-b37a-43e0-9b2b-712664441312"
+      (reference "#GND0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/a0139dbf-800f-4b31-affb-7aba7e231628"
+      (reference "#GND0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/fa732ae4-a983-4593-a3c8-d9a26451adbb"
+      (reference "#GND0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/a6e6adaa-09e0-4a79-b170-0e45ed2faefb"
+      (reference "#GND0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/29c8103b-55df-4ba7-bb30-27604469a02c"
+      (reference "#GND0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/af326d4d-874e-4746-a391-53c34fc82b70"
+      (reference "#GND0107") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/cdfdd26e-fbb6-49b6-a021-b5e1705aa1ba"
+      (reference "#GND0108") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/7c39e388-03a4-4159-ae0f-de9bb6dc2288"
+      (reference "#GND0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/27d14751-8ad8-40f8-9089-3e1fa7b928f0"
+      (reference "C1") (unit 1) (value "100u") (footprint "dvhx-kicad-library:Capacitor_polarized_D6.35mm_H5.65mm_P2.54mm")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/12c74b63-d2c9-4bab-95a1-1088b1f3832f"
+      (reference "C2") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/92623db4-c626-4618-a9b2-c3127d500ebc"
+      (reference "C3") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/5be70817-280e-4d7f-a36a-24199a1b455e"
+      (reference "C4") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471/1dde36c5-7e52-48bb-a096-e742a2dfef79"
+      (reference "C5") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471/506d5622-d57e-43fb-85b1-624aabbbb853"
+      (reference "C6") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471/6ee54f02-2683-496a-a38d-6136ac5feb8f"
+      (reference "C7") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/da7f12ce-cbeb-4d3a-a074-b03012f99b25"
+      (reference "C8") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/d138a0b9-687f-421c-a2cc-62bbbac126c3"
+      (reference "C9") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/7cddb8a6-4c5b-459a-89e8-7f8890e7a3bf"
+      (reference "C10") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/3bcc6db4-e287-46e7-b64c-ae4031234fc9"
+      (reference "C11") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/c5d233e6-9e09-42a3-992b-cf6ff253ac1c"
+      (reference "C12") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/774e4a79-ef7e-43b0-b72c-d81ac6ebb08a"
+      (reference "C13") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/a10090d0-8b56-4b47-98d2-1cca9bdc3f84"
+      (reference "C14") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/dccc5e09-72ce-4aaf-8f50-a6f2433d41de"
+      (reference "C15") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/a344f27d-c660-4612-aab9-7043a8406043"
+      (reference "C16") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/4a4c7e1b-13e6-4f9b-bf07-336fb6deaa8d"
+      (reference "C17") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/d0b4ca7d-3164-4b5c-b03c-65f30902dadd"
+      (reference "C18") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/df3c8bef-1f7c-40bf-91fa-1733bb55093c"
+      (reference "C19") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/4a82f448-e576-4549-a1de-764c9eb06c1a"
+      (reference "C20") (unit 1) (value "47n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/656a7ca8-30c9-489d-8092-4caedc916fe7"
+      (reference "C21") (unit 1) (value "47n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/54f0cabb-77d8-411c-a3a4-d65683d6d125"
+      (reference "C22") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/7e107049-2cd3-4c41-933e-3841bb6a0763"
+      (reference "C23") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/4431e881-9283-48c5-81a1-763dca625eed"
+      (reference "C24") (unit 1) (value "2u2") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/6e293d10-00aa-4aa7-82fe-597f2b669515"
+      (reference "C25") (unit 1) (value "10n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/97c3dfe4-4a53-4d24-b8a4-cbdede129ec1"
+      (reference "C26") (unit 1) (value "22u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/50abaddd-47f5-4d26-a1ac-040e0a5b2a4e"
+      (reference "C27") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/281fd3ba-f379-4270-93fd-095a7b200461"
+      (reference "C28") (unit 1) (value "100p") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/22342b95-eeff-4d2c-870a-9ab3bb86bf29"
+      (reference "C29") (unit 1) (value "47n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/b8f9d2f4-ae17-450f-849f-368e5b70514c"
+      (reference "C30") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/5f8f5ce1-ca1f-4990-90a5-d8df5fcea750"
+      (reference "C31") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/1f37ef69-5e6e-4bfc-bf75-b2c6fa771a9b"
+      (reference "C32") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/8e656f8e-b3c8-45da-bbce-173eea3ae956"
+      (reference "C33") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/08f043dd-bcf7-4acd-8635-32f5deb1da95"
+      (reference "C34") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/f9819dd7-c72f-4430-8e74-768f2ed70ce0"
+      (reference "C35") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/1ea1a0e9-52bb-4959-820c-e56c5c992d58"
+      (reference "C36") (unit 1) (value "1u5") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/f97d5b4a-1701-4b0d-8f0b-7524e527914a"
+      (reference "C37") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/ce3830ad-6b15-4dd4-839e-94921cae2454"
+      (reference "C38") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/29c79d27-7f8d-4607-8ff1-67cf3cf40587"
+      (reference "C39") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/80257eb1-49db-47ac-b010-0933642d2f53"
+      (reference "C40") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/c95d643e-b778-4885-b2d5-08163bbb0237"
+      (reference "C41") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/904bcdf3-801a-4daf-8d4c-c5351b568b68"
+      (reference "C42") (unit 1) (value "125u") (footprint "dvhx-kicad-library:Capacitor_polarized_D6.35mm_H5.65mm_P2.54mm")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/711d6afa-0a50-45ae-a070-40d01b55007f"
+      (reference "C43") (unit 1) (value "22n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/6ababb45-fe0e-4865-82d8-860c8ac79cb5"
+      (reference "C44") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/b54a5438-a202-4984-a167-124d0d7d3cfc"
+      (reference "C45") (unit 1) (value "22n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/7dc0f161-95b0-44da-9864-e595889bff6f"
+      (reference "C46") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/ea8fca53-0d3f-445e-9882-438f09a90184"
+      (reference "C47") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/9e0d16d2-7261-429e-b661-af2103db9d8d"
+      (reference "C48") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/86c7d82b-b3b5-4c99-ac30-ff4cb7085a9a"
+      (reference "C49") (unit 1) (value "4u7") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/2c8aabf3-d635-49e7-84f1-50157239533a"
+      (reference "C50") (unit 1) (value "1n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/126ba35c-5e59-40a1-960f-90d49c098d55"
+      (reference "C51") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/43d169c6-9fc9-4b62-8554-41343224d398"
+      (reference "C52") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/5e3edb1b-2a66-4037-b907-dcc8dd16a480"
+      (reference "C53") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/177148f9-8f0f-4982-8a97-c338508c403f"
+      (reference "C54") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/7ea1c23c-14e5-40d7-b438-68ee8039d86d"
+      (reference "C55") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/ad622ffb-d761-47c2-bff6-0d5388b8b695"
+      (reference "C56") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/08a03179-60cb-4b66-9852-5b6b7fc2360d"
+      (reference "C57") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/28607d10-4a0e-4a24-8a2c-ada08a61dfa2"
+      (reference "C58") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/264320ac-fa12-4abb-9ae0-c6f62d3fb17f"
+      (reference "C59") (unit 1) (value "1u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/72edded8-86fe-4730-af91-f0dff593a7b7"
+      (reference "C60") (unit 1) (value "47n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/cd73fbc6-fbde-46ab-ab10-f77a76c7b418"
+      (reference "C61") (unit 1) (value "10n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/4a30fcaa-fa70-4ef7-bc18-1d232fee7d95"
+      (reference "C62") (unit 1) (value "4n7") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/7edf2da7-be44-41db-b549-d5c79708d904"
+      (reference "C63") (unit 1) (value "4n7") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/718c6bc9-54fb-4902-b091-b75900fbec5d"
+      (reference "C64") (unit 1) (value "1n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/8768b9e1-8031-4b01-b2cb-efb61480eac4"
+      (reference "C65") (unit 1) (value "22u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/b8979563-01be-4e12-bbd4-463cd1380003"
+      (reference "C66") (unit 1) (value "47n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/52bf8c9f-a7b7-4b89-8df7-108d979d1b8c"
+      (reference "C67") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/1dd846af-fc14-4004-9c30-d170a8887143"
+      (reference "C68") (unit 1) (value "1u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/95eda5d4-b8d3-4bc6-ae90-2a1a36a343aa"
+      (reference "C69") (unit 1) (value "1u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/a518c21e-4795-48e7-9c5d-e6c63b1ceef0"
+      (reference "C70") (unit 1) (value "1u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/5ca24d75-8525-4185-b403-c8277982129b"
+      (reference "C71") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/bfb19f11-838e-44ff-8164-11741caa1397"
+      (reference "C72") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/361909bb-0e47-498a-9e67-0745a9d99adc"
+      (reference "C73") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/9baa712a-8fc3-4c1d-b332-d1639ca8ae04"
+      (reference "C74") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/e26ed48e-ae8f-481b-a6d6-007542cba02d"
+      (reference "C75") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/7a26b515-f20f-43c1-a829-1c206225c039"
+      (reference "C76") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/5afe12ec-71c0-4c1d-bcda-6b876dbcef83"
+      (reference "C77") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/a3e1864c-e2f4-4706-be3a-9a64cbbd190a"
+      (reference "C78") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/1a0ac778-285d-4fd0-a1ae-cdfcf12a6182"
+      (reference "C79") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/88500d73-27b3-4c3f-b671-81f916e5d8a4"
+      (reference "C80") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/4115f5e2-72db-4523-9abf-d51f4bce6d01"
+      (reference "C81") (unit 1) (value "100n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/5414429e-1911-4f3d-9d4c-0599a4dd785d"
+      (reference "C82") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/56e803b4-b46d-46af-b528-f9eab6f2a835"
+      (reference "C83") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/412e60a2-a759-4be2-b3d3-42a12725ddfd"
+      (reference "C84") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/dea6c967-0295-41a7-887c-14367c2c64c9"
+      (reference "C85") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/8d0c4e09-eb05-46ad-8c70-99d5a3184ba7"
+      (reference "C86") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/848ad7d1-1b57-4d4d-8ec4-255b3485aa23"
+      (reference "C87") (unit 1) (value "10n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/f83792aa-cb05-4359-83c6-72124ce54a5f"
+      (reference "C88") (unit 1) (value "4n7") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/c05c637e-59d8-427d-b4c6-bd4387876349"
+      (reference "C89") (unit 1) (value "22p") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/bac3c1d8-4447-416d-a314-94e37d202a59"
+      (reference "C90") (unit 1) (value "4.7u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/f4db646d-1c75-4151-a661-dfcf0c72d110"
+      (reference "C91") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/58351fa0-2a2b-4f6e-a857-8f6bbd74310c"
+      (reference "C92") (unit 1) (value "1n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/ae9fce91-1912-4c7a-837a-f32a2bf65f43"
+      (reference "C93") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/f4594f85-c2b1-41f8-8846-9cf37691e77a"
+      (reference "C94") (unit 1) (value "47n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/9f51c3e4-da3e-4acc-88e5-6cf96029e2fb"
+      (reference "C95") (unit 1) (value "4u7") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/e0e3bcac-02a7-4036-88b7-05514e6992b2"
+      (reference "C96") (unit 1) (value "4u7") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/1b6757a5-10f7-4159-9ed6-97560a04fe31"
+      (reference "C97") (unit 1) (value "2n2") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/ca2e0180-4d5a-4f33-ada2-5c3fb8da5f7b"
+      (reference "C98") (unit 1) (value "47n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/2fc6c44d-8a5e-444f-b1c7-021005a2c4c2"
+      (reference "C99") (unit 1) (value "4u7") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/667f5078-5469-438f-bdd0-5392d35c4297"
+      (reference "C100") (unit 1) (value "4u7") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/623699b8-7144-436d-a054-cc2f205b6a6a"
+      (reference "C101") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/f1c90a01-d865-4407-8359-f50e1ba5b802"
+      (reference "C102") (unit 1) (value "680n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/6f315775-7a77-43ba-818b-c87c054dc50c"
+      (reference "C103") (unit 1) (value "680n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/bfe00b6d-a358-4943-ac00-1bf8765b4191"
+      (reference "C104") (unit 1) (value "680n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/38b3d8fe-68a9-4347-bd71-c8855e19523e"
+      (reference "C105") (unit 1) (value "680n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/2f0d9ca5-4789-400f-a68c-241118792eed"
+      (reference "C106") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/872f230a-94f6-4b78-91f1-d1815c9160d9"
+      (reference "C107") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/6dea2a7d-4ff2-47e4-9a06-f380983eaeb0"
+      (reference "C108") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/7366abd4-debc-456b-9c08-526324ee0172"
+      (reference "C109") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/72bd754a-72a0-4032-9066-a14b36365d1b"
+      (reference "C110") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/e9877e57-2516-4fc2-9f64-73de81526de1"
+      (reference "C111") (unit 1) (value "680n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/e7d7d974-6a17-4028-b531-5f3aebff925f"
+      (reference "C112") (unit 1) (value "680n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/bc965919-6605-4797-a47f-99490cf4c8a4"
+      (reference "C113") (unit 1) (value "680n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/ec8ecc33-5ef7-4c26-8fc2-7f6f8cebac9f"
+      (reference "C114") (unit 1) (value "680n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/ee33f3fe-3ac2-48f5-8469-722847e9ce92"
+      (reference "C115") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/ec056fb5-d63c-4c69-a36e-9c67a0fefaeb"
+      (reference "C116") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/16a37503-5d30-4449-9619-1babe053aba5"
+      (reference "C117") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/c3768011-08c0-4ca9-bafb-e4ad8fecb3ab"
+      (reference "C118") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/1d637922-2152-4e0a-ad26-dd514a87f8be"
+      (reference "C119") (unit 1) (value "22n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/d50eb843-98d7-489a-92c2-0a32bb70162d"
+      (reference "C120") (unit 1) (value "1n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/1146882d-42c6-4e09-9ced-373d21c743eb"
+      (reference "C121") (unit 1) (value "4u7") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/8e097119-d476-4b5e-b21a-4570091009a9"
+      (reference "C122") (unit 1) (value "2u2") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/de264c68-eb8b-4ad3-aeab-ebd30fed1b93"
+      (reference "C123") (unit 1) (value "100p") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/4d112d7a-79b1-4c8e-97b5-88a61f7dd4c4"
+      (reference "C124") (unit 1) (value "4u7") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/0397a46e-b231-4278-b35c-fbeb4dfde2fc"
+      (reference "C125") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/0c23b7e2-2d65-432c-8530-e36755819c5a"
+      (reference "C126") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/731a74e9-fa73-41ae-bee2-e9b746b81231"
+      (reference "C127") (unit 1) (value "3n3") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/3c47307a-ad6b-457d-8440-ec1437fb2897"
+      (reference "C128") (unit 1) (value "22n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/d1ced640-c460-445b-a96d-2a1f2e7beebb"
+      (reference "C129") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/b9bd15f0-2588-4766-b744-8271bd55c3ec"
+      (reference "C130") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/d3d6f197-ce1b-4500-a4d6-a71c1773a518"
+      (reference "C131") (unit 1) (value "47n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/80b2758a-a3bd-4aa3-8b78-367ea9341a8f"
+      (reference "C132") (unit 1) (value "2n2") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/4a6756df-0956-48b1-a055-59020a5b11c2"
+      (reference "C133") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/d2276f79-7d2a-4ed4-b82f-21ab0e875bb9"
+      (reference "C134") (unit 1) (value "47n") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/4084bdd5-8440-438a-b513-668fde65ffb8"
+      (reference "C135") (unit 1) (value "2n2") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/52fed30a-98b8-470f-bc66-2a76c10735b8"
+      (reference "C136") (unit 1) (value "10u") (footprint "dvhx-kicad-library:Capacitor_0805")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/1036c95b-218d-4c0b-8dae-adb5dd526467"
+      (reference "D1") (unit 1) (value "LED") (footprint "dvhx-kicad-library:Diode_LED_3mm")
+    )
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471/c6626d1f-940f-4be4-87fa-270552a562d9"
+      (reference "D2") (unit 1) (value "Diode") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/9ed046fb-f778-4748-84ae-7546618d01ab"
+      (reference "D3") (unit 1) (value "Diode") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/9ff6343f-5000-4654-be58-1f5be440ab4e"
+      (reference "D4") (unit 1) (value "Diode") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/bd9f5a79-4502-4b8a-af79-71c589791342"
+      (reference "D5") (unit 1) (value "Diode") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/99c0f7d3-e2bf-47d4-89ad-5b144c7e8169"
+      (reference "D6") (unit 1) (value "Diode") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/3fb4539e-2b5f-4b67-bd02-4e2291e31b89"
+      (reference "D7") (unit 1) (value "1N5819") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/65f1b79a-2f29-45ae-b0c7-16a622db2d58"
+      (reference "D8") (unit 1) (value "1N5819") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/d3430e8c-2ea4-4515-8fa8-86f13f9d3c0d"
+      (reference "D9") (unit 1) (value "Diode") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/66d9bace-f3cf-4a95-b3af-7de36e53d8a0"
+      (reference "D10") (unit 1) (value "Diode") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/143691df-974d-4757-8c50-dc9936ad37ca"
+      (reference "D11") (unit 1) (value "RED") (footprint "dvhx-kicad-library:Diode_LED_3mm")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/f368bc1f-e80d-4740-b9e2-4cd824735861"
+      (reference "D12") (unit 1) (value "Diode") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/375c4e00-5f33-47db-b32b-dac0cb3510eb"
+      (reference "D13") (unit 1) (value "Diode") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/01a6f7c6-f6ab-4ea0-9b5c-6eb3e5196f5b"
+      (reference "D14") (unit 1) (value "Diode") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/ec21be90-b8e9-4390-abcf-6ef07afd95c6"
+      (reference "D15") (unit 1) (value "Diode") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/678546c2-0b7b-4370-9205-7c23f1815eb9"
+      (reference "D16") (unit 1) (value "1N4148") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/6d28a909-f9a0-47a9-9437-f552b1db1b59"
+      (reference "D17") (unit 1) (value "1N4148") (footprint "dvhx-kicad-library:Diode_SOD-123")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/5918d433-77ba-47d2-9b46-a1ab9722f357"
+      (reference "Distortion1") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/8886fd9e-79e6-493b-ba8d-ae260c98a60d"
+      (reference "I1") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471/e9ae0742-2157-4689-a4b8-08159c162999"
+      (reference "I2") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/dde733b4-824c-4af4-afe4-f69f5743a309"
+      (reference "I3") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/2a67836a-a519-4ab4-8b9f-f34934c8fe15"
+      (reference "I4") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/a2dd70db-c8e9-4143-8915-f63d6ea5a8d4"
+      (reference "I5") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/b4d01d8d-c90d-4cae-8c51-7aa6554c2120"
+      (reference "I6") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/819fd10e-3100-47ce-ae19-2b4526904f61"
+      (reference "I7") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/194eedf3-dd78-465e-9c06-d2551098021a"
+      (reference "I8") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/f9a301ba-8e22-467c-a4bf-770701a350e1"
+      (reference "I9") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/7ddc0c3b-77a9-4525-a561-c8ed92a3a155"
+      (reference "I10") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/cbe3bac7-e9b2-4ee7-a0c4-1ca85de0dffc"
+      (reference "I11") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/47cc4dde-2b2e-4186-b492-c224faa45da5"
+      (reference "I12") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/17234bd0-5a8b-4d15-8974-794db08607f9"
+      (reference "I13") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/db79efc0-e826-4a1c-87e6-cbe23d1836c8"
+      (reference "I14") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/56835a6b-d255-4c83-9acc-b8d3949119e6"
+      (reference "I15") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/97701571-e905-410e-9682-ee45e5b76c94"
+      (reference "I16") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/4be177f8-f1b7-4a2a-a3a7-6d7ecb2565e2"
+      (reference "I17") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/94f6a152-923a-4936-80ca-62da346c45bf"
+      (reference "I18") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/52ec2150-f087-4131-93d8-83d919a0340b"
+      (reference "I19") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/a97aa7f9-cf9d-4a6d-88d1-7c32b6297b94"
+      (reference "I20") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/5ad585ce-de6e-4496-af10-eb0c6b77b0ae"
+      (reference "I21") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/5c7cb454-2c18-4846-afaf-f5e10d93d187"
+      (reference "I22") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/70d8efb8-2417-4ace-8af6-8be5e22ce352"
+      (reference "I23") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/c51c1592-db99-4658-8c52-c05011ba6649"
+      (reference "I24") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/2df706da-e9e2-47da-8371-0aea21dcf8e6"
+      (reference "I25") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/1283d12e-f677-43f7-aaf6-172fecbbb63e"
+      (reference "I26") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/1f1e4ad0-2777-49c3-add1-32504e43c84b"
+      (reference "I27") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/44ab2910-6db7-44de-9ca2-8c139352c429"
+      (reference "I28") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/3fad9415-f1c1-48dd-93e7-2c9b9cbc8c5d"
+      (reference "I29") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/029e8cbf-dd7e-4f57-bfe8-3c15fb5cd80c"
+      (reference "J1") (unit 1) (value "Connector_6.35mm_female_stereo") (footprint "dvhx-kicad-library:Connector_Jack_6.35mm_female_stereo")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/e85c364f-5c69-4a3c-a87b-4a5a687c4902"
+      (reference "J2") (unit 1) (value "Header_1x4_male") (footprint "dvhx-kicad-library:Header_1x4_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/04cdcbe2-d332-4397-8f06-13cc19fc8d34"
+      (reference "J3") (unit 1) (value "Connector_6.35mm_female_stereo") (footprint "dvhx-kicad-library:Connector_Jack_6.35mm_female_stereo")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/bf03eb8c-3d94-4f77-a99d-8f4f0890b5c5"
+      (reference "J4") (unit 1) (value "Header_1x4_male") (footprint "dvhx-kicad-library:Header_1x4_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/037bc13f-c68e-4675-9730-933ed0729899"
+      (reference "J5") (unit 1) (value "Header_1x3_male") (footprint "dvhx-kicad-library:Header_1x3_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/c4678e39-e1a9-45fc-9463-d6869a29299c"
+      (reference "J6") (unit 1) (value "Header_1x3_male") (footprint "dvhx-kicad-library:Header_1x3_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/da9d3e51-f7c5-4235-95a7-247968bf0312"
+      (reference "J7") (unit 1) (value "Header_1x3_male") (footprint "dvhx-kicad-library:Header_1x3_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/429a48ac-5f28-47cd-825b-a86285e52471"
+      (reference "J8") (unit 1) (value "Header_1x4_male") (footprint "dvhx-kicad-library:Header_1x4_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/69c87d87-6bb5-48cb-911d-e5d01fbcd592"
+      (reference "J9") (unit 1) (value "Header_1x3_male") (footprint "dvhx-kicad-library:Header_1x3_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/eeb28092-a15c-415c-8641-422a93fa2e93"
+      (reference "J10") (unit 1) (value "Header_1x3_male") (footprint "dvhx-kicad-library:Header_1x3_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/30ac25d4-c50e-4505-af82-20155b05446e"
+      (reference "J11") (unit 1) (value "Header_1x3_male") (footprint "dvhx-kicad-library:Header_1x3_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/d10c0d58-bee4-44cb-bb85-df22bb3c8684"
+      (reference "J12") (unit 1) (value "Header_1x3_male") (footprint "dvhx-kicad-library:Header_1x3_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/cbd5d11a-a7bf-4504-9e29-a15d8e74fa2b"
+      (reference "J13") (unit 1) (value "Header_1x3_male") (footprint "dvhx-kicad-library:Header_1x3_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/5616c6b0-fc0b-4dcd-bb9f-5a62af58a087"
+      (reference "J14") (unit 1) (value "Header_1x3_male") (footprint "dvhx-kicad-library:Header_1x3_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/e3048b83-8f31-48b8-b5e5-9da70bf95b4b"
+      (reference "J15") (unit 1) (value "Header_1x4_male") (footprint "dvhx-kicad-library:Header_1x4_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/890daf4b-a696-4a33-b2d2-b6e11e867013"
+      (reference "J16") (unit 1) (value "Header_1x3_male") (footprint "dvhx-kicad-library:Header_1x3_male_upright")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/372b1451-4d94-47c4-9b3d-26da6f9df351"
+      (reference "J17") (unit 1) (value "Header_1x3_male") (footprint "dvhx-kicad-library:Header_1x3_male_upright")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/55f75a64-d0e5-40cf-b78d-87b773ec50cb"
+      (reference "O1") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471/2daec4a3-4730-4b0f-88ba-91bd3740e675"
+      (reference "O2") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/f99029b1-0b85-4f51-8303-5ba108333470"
+      (reference "O3") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/8adc9eb8-1b4a-42aa-9adc-a9f8c3000b18"
+      (reference "O4") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/15af6a25-8dd5-4bb5-a2ce-90eae0eb93bb"
+      (reference "O5") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/4e9d6a9b-d3ba-4cc4-a453-0bbf20701fa2"
+      (reference "O6") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/ae12aefe-48ea-40de-a4b7-f72b07cfcb2e"
+      (reference "O7") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/f437d67e-d44f-4b38-a6c9-f36d153cdec4"
+      (reference "O8") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/01bde523-815d-402e-891f-69ad4091af28"
+      (reference "O9") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/774eb6f6-f7a6-4bbd-afa6-91eaa6394f8a"
+      (reference "O10") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/433fdf2f-fe69-411c-bd31-31fde43967bb"
+      (reference "O11") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/734d79cf-edc7-4aa5-a745-4e5985b5eaab"
+      (reference "O12") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/a3ebd5c2-9cfa-4a04-831f-16049df6993f"
+      (reference "O13") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/f0ce44a2-cd98-45f6-a8e0-6ad17a0b098a"
+      (reference "O14") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/53046843-cc40-4c50-a32a-9cce118673bf"
+      (reference "O15") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/6c7c940d-85ef-44cf-9770-2ff41f3f7e98"
+      (reference "O16") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/24344c01-8492-4e57-81b4-56072fa7bd0e"
+      (reference "O17") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/c74b6533-17b8-4810-951e-30d56e368798"
+      (reference "O18") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/d355e50f-2a22-4009-b72f-9946e7c1a6af"
+      (reference "O19") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/7baf5e56-d39b-4acd-86a7-35e1a40b6228"
+      (reference "O20") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/65bf498b-a8b1-45c2-a749-6a965ee37af8"
+      (reference "O21") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/bd2766c7-0172-4284-aed3-e10e164be4eb"
+      (reference "O22") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/6ffa9b53-531a-4f55-8667-f5f55cba2a1a"
+      (reference "O23") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/7126d078-9555-461a-9e55-34f7165c25ec"
+      (reference "O24") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/3ba2c747-e99d-4872-bcb9-dce0b20c06d7"
+      (reference "O25") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/d75adff7-931c-4634-856c-0b7e9c5e8e39"
+      (reference "O26") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/cd3a474e-46bf-466e-aebd-1a1d08e4c9b9"
+      (reference "O27") (unit 1) (value "Header_1x1_male") (footprint "dvhx-kicad-library:Header_1x1_male_upright")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/8f9122e2-9f34-4fa7-ae98-0a41d7256e48"
+      (reference "P1") (unit 1) (value "1k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/2abc11f5-0b07-43ba-99cb-7b3525b58e8e"
+      (reference "P2") (unit 1) (value "500k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/17c033d7-2aff-4191-afee-1fa2076f4556"
+      (reference "P3") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/d82018fa-70e0-4a27-807b-67fd4a986e57"
+      (reference "P4") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/48368166-0a13-4ed7-abfb-42a8f6676608"
+      (reference "P5") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/e525ef36-94d8-4fca-8657-3960b3dd5abe"
+      (reference "P6") (unit 1) (value "Blend") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/d32b0020-c270-430f-8de9-3a6755c90c18"
+      (reference "P7") (unit 1) (value "Blend") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/16dccfb1-cf95-42a1-91ee-b2e8b194fbe1"
+      (reference "P8") (unit 1) (value "Blend") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/e7353d6e-df41-47c6-a135-34076a716621"
+      (reference "P9") (unit 1) (value "Blend") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/c3a02bf1-f0f2-4a91-b7ee-2f3225f412d4"
+      (reference "P10") (unit 1) (value "Blend") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/c058445d-b1a5-4a17-b9db-a19284486103"
+      (reference "P11") (unit 1) (value "500k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/84cd7cc2-526f-4e1f-9e0c-7501097cd33f"
+      (reference "Q1") (unit 1) (value "MMBFJ201") (footprint "dvhx-kicad-library:SOT23-DSG")
+    )
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471/74cd2120-44b6-418d-b258-fbc9aeb6aad8"
+      (reference "Q2") (unit 1) (value "MMBT3904") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/ea82f956-26e9-49c2-b514-26649aff04be"
+      (reference "Q3") (unit 1) (value "MMBT3904") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/cf0f68bf-548b-4ed9-ae02-6c9c1db602bb"
+      (reference "Q4") (unit 1) (value "MMBT3904") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/0c95a049-3988-4dff-b71e-f0d0d85ca4e1"
+      (reference "Q5") (unit 1) (value "MMBT3904") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/15b7894f-eabd-47dd-88a7-193f31f18cc0"
+      (reference "Q6") (unit 1) (value "MMBT3906") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/f89b5afe-d204-4880-a553-0f6413cbf8bf"
+      (reference "Q7") (unit 1) (value "MMBT3904") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/ea21ab1b-3ebc-45fa-8762-ce61453ad4bb"
+      (reference "Q8") (unit 1) (value "MMBT3904") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/6ff267cc-770f-43ec-bed3-3f0634e9b698"
+      (reference "Q9") (unit 1) (value "MMBT3904") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/e86f7bef-20d4-4bc1-821e-f382fdf2812c"
+      (reference "Q10") (unit 1) (value "NPN") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/753e2e87-1592-4920-b317-b8833e6d4622"
+      (reference "Q11") (unit 1) (value "PNP") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/ad453895-1adb-4c10-b762-8cb6b192ad05"
+      (reference "Q12") (unit 1) (value "MMBFJ201") (footprint "dvhx-kicad-library:SOT23-DSG")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/c6be339c-c7bf-4107-a6f2-ad150000346c"
+      (reference "Q13") (unit 1) (value "NPN") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/33b31a85-faf0-4356-8562-4f7f949e9697"
+      (reference "Q14") (unit 1) (value "PNP") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/3c79e170-ac0b-4e96-8929-fdb40c607bec"
+      (reference "Q15") (unit 1) (value "MMBT3904") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/a8efa82f-79b4-42a1-abdf-240af243adf6"
+      (reference "Q16") (unit 1) (value "MMBT3904") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/af281593-7a3d-4a4e-a7d8-76970ec0fa03"
+      (reference "Q17") (unit 1) (value "MMBT3906") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/36733aa9-2374-46bb-b660-87f95d2680aa"
+      (reference "Q18") (unit 1) (value "MMBT3904") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/cf075dd6-a84b-450f-bdd2-def6c2652a1f"
+      (reference "Q19") (unit 1) (value "MMBT3904") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/294cb2eb-ed70-49d8-bddb-626c766cca12"
+      (reference "Q20") (unit 1) (value "NPN") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/bfa55c2e-b4db-4a68-9eda-51c1fe4d49f1"
+      (reference "Q21") (unit 1) (value "NPN") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/ba611766-feed-434c-8888-1d5db4e6c48b"
+      (reference "Q22") (unit 1) (value "MMBFJ201") (footprint "dvhx-kicad-library:SOT23-DSG")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/17c87209-642e-47b2-80e3-2f162e0c7861"
+      (reference "Q23") (unit 1) (value "NPN") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/275366f6-affe-4b2f-9a81-8aa831a04808"
+      (reference "Q24") (unit 1) (value "NPN") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/eecae713-4be8-4f27-a0fd-30955f50db71"
+      (reference "Q25") (unit 1) (value "PNP") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/bc8ea2bd-4f13-4691-b9f4-d45b9feabb14"
+      (reference "Q26") (unit 1) (value "MMBFJ201") (footprint "dvhx-kicad-library:SOT23-DSG")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/ad1ea484-4929-48e1-83ef-78391082c036"
+      (reference "Q27") (unit 1) (value "MMBFJ201") (footprint "dvhx-kicad-library:SOT23-DSG")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/cf1b1c55-ea83-45cf-888b-ddf830aff45c"
+      (reference "Q28") (unit 1) (value "NPN") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/0b45b8a3-704c-4ce1-8076-df9c24e494fe"
+      (reference "Q29") (unit 1) (value "NPN") (footprint "dvhx-kicad-library:SOT23-BEC")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/6f193918-8c69-4684-a5fb-11f4ba0e4982"
+      (reference "R1") (unit 1) (value "2k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/d22e6eb4-2604-4644-a7a9-0f03c8557e15"
+      (reference "R2") (unit 1) (value "10M") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/87c708f1-3b38-47c6-b863-6917999aab11"
+      (reference "R3") (unit 1) (value "10M") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/bb27f4a5-797a-4556-a6e3-9cfade4cd0cc"
+      (reference "R4") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471/a1c80773-df7f-4f73-ae79-2de08d81dd4b"
+      (reference "R5") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/a3d628b6-e450-4e14-a382-ea42b01e5e46"
+      (reference "R6") (unit 1) (value "330k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/91433c11-a5d3-4c05-b727-fdf95e7fa55a"
+      (reference "R7") (unit 1) (value "330k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/8a4af696-ddda-45c6-8b24-08c753fda7d5"
+      (reference "R8") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/31e6c9f5-82ae-4301-bfa0-506b67b64648"
+      (reference "R9") (unit 1) (value "R") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/7e3e2cde-20d1-44f0-b20b-032c35805437"
+      (reference "R10") (unit 1) (value "R") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/2a7d09aa-6af8-4fd8-8830-bfd57a7ed38c"
+      (reference "R11") (unit 1) (value "1M") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/f7240be6-efd8-42d4-8f21-54861f1de715"
+      (reference "R12") (unit 1) (value "1M") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/3bfaf15f-42b2-4092-895f-946550d9ddd6"
+      (reference "R13") (unit 1) (value "1M") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/d5f904e8-280c-4043-a4f9-9ffcb6acfdb0"
+      (reference "R14") (unit 1) (value "1M") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/5207a161-b2b2-4b28-9c2b-79d30cb47c41"
+      (reference "R15") (unit 1) (value "3M3") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/22a286ff-c625-4937-86d5-c8ad04720dc6"
+      (reference "R16") (unit 1) (value "4k7") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/d195dc02-98cf-419d-9174-b9ab6cb94c91"
+      (reference "R17") (unit 1) (value "470") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/04309c8c-d27d-4632-870f-b1f9e39b2aa5"
+      (reference "R18") (unit 1) (value "1M5") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/fec0cfbb-6548-4851-b257-0cbdd0ed00c0"
+      (reference "R19") (unit 1) (value "470k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/a5e8b311-6a62-4d6c-a5ae-9b9846d946a1"
+      (reference "R20") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/72a2f5ec-848f-4cb4-9cef-e7337103eff3"
+      (reference "R21") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/32313dc1-d724-4b71-8d92-9030c03462a4"
+      (reference "R22") (unit 1) (value "6k8") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/d51dfba7-6a1b-460e-ab43-3a79e7136f3f"
+      (reference "R23") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/abc2bcf4-0a4c-4fa9-ad7e-90ca4dc07837"
+      (reference "R24") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/8db7b7f0-e744-4ad9-b1de-a0095bf6afe1"
+      (reference "R25") (unit 1) (value "68k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/6151307e-eff8-4df8-9f42-f8eacfce163a"
+      (reference "R26") (unit 1) (value "68k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/ed4cb8cd-01c3-4f35-a0bb-6ba54a9fe4fa"
+      (reference "R27") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/0e8b422d-9502-471b-9e02-9133b57f6924"
+      (reference "R28") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/efec574d-4d5a-4ada-a82b-7ac5f7252335"
+      (reference "R29") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/73ee6633-e9e4-4784-b4e1-40c0ffef951b"
+      (reference "R30") (unit 1) (value "47k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/974f6b12-30dc-4ff2-ab95-137e086cf5c5"
+      (reference "R31") (unit 1) (value "33k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/829bdea5-7568-4d39-8355-08ec9bf4450c"
+      (reference "R32") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/401187eb-99f9-4660-afbf-3b7061bbc6c1"
+      (reference "R33") (unit 1) (value "330") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/0a574c4f-0c77-49fc-82f8-c5224c47e98e"
+      (reference "R34") (unit 1) (value "8k2") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/aa69ec9e-712a-4f79-b3f0-6eb08dfb945a"
+      (reference "R35") (unit 1) (value "500") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/24f9edb4-d7a1-4af7-a04f-3a64d9fa9d6e"
+      (reference "R36") (unit 1) (value "500") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/50181d10-cd98-45a3-93c6-0f9891cdd117"
+      (reference "R37") (unit 1) (value "750k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/1b233c8c-8e4a-4c26-975f-e67af83aac92"
+      (reference "R38") (unit 1) (value "220k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/7cef73a4-2c3e-4029-a70f-f9d0a1fe9014"
+      (reference "R39") (unit 1) (value "91k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/e5971e79-cd0a-403b-8c1a-10acb3780fb4"
+      (reference "R40") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/e6d0f6f7-a433-4f2e-800a-52dc37d80119"
+      (reference "R41") (unit 1) (value "4k7") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/825771fe-9ee6-4249-9bfd-0a9bbe808bb0"
+      (reference "R42") (unit 1) (value "68k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/9168e935-20a4-4f0c-85a3-f8217d7fc637"
+      (reference "R43") (unit 1) (value "22k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/396d2266-64ac-44b6-9587-292a1fc9076b"
+      (reference "R44") (unit 1) (value "12k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/ce4770d4-e612-4919-94b8-c9fa0adc53ee"
+      (reference "R45") (unit 1) (value "0-50k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/9a5b1940-344a-4ad2-8217-2119a791fafb"
+      (reference "R46") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/67c84900-f0bc-4178-b066-cd7e9287edf9"
+      (reference "R47") (unit 1) (value "62k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/7f9c1eff-a8dd-4c32-a914-352397e7d7c6"
+      (reference "R48") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/90c4df79-e558-4b31-b364-b31d50fa19bd"
+      (reference "R49") (unit 1) (value "3k9") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/ec482ccb-cd14-4740-857c-8763941458c5"
+      (reference "R50") (unit 1) (value "1k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/c88d8253-0dff-4b4f-89c2-a902c188c892"
+      (reference "R51") (unit 1) (value "1k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/4fe4e164-cda7-4db0-bf1a-f1be0dc719e3"
+      (reference "R52") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/f0178dd8-48eb-40ce-9ffd-c3df7a0e5a5f"
+      (reference "R53") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/e1abddf7-c374-4a4d-adab-cd19b6ff9743"
+      (reference "R54") (unit 1) (value "62k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/4acdbabb-d070-49af-9863-538188e4c5c7"
+      (reference "R55") (unit 1) (value "1k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/48b0a357-e06c-49e8-baf7-64cf2e727c8a"
+      (reference "R56") (unit 1) (value "3k9") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/ec6d32a5-1b15-453d-932c-026caf0d0882"
+      (reference "R57") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/996e999c-ff61-4063-ab10-2b65044c9a41"
+      (reference "R58") (unit 1) (value "10M") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/13219247-550e-4425-8788-180907e7f63f"
+      (reference "R59") (unit 1) (value "120k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/ebfafb5b-8e7c-40b1-b9c1-f5b33a91b524"
+      (reference "R60") (unit 1) (value "1k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/4e8921a8-c8d5-4408-9faa-3b9f6b06ffb3"
+      (reference "R61") (unit 1) (value "120k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/f0128f56-6dd5-4a7f-8b17-77aa444a0efa"
+      (reference "R62") (unit 1) (value "200k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/43967b33-6cb8-4421-895a-c13308f66faf"
+      (reference "R63") (unit 1) (value "7k5") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/b2fac93d-bca6-4e5f-92e0-1a5f3742c800"
+      (reference "R64") (unit 1) (value "22k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/dc92f068-c268-40aa-8801-f9e8290f50f4"
+      (reference "R65") (unit 1) (value "51R") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/c0b233c3-0354-40a8-9da4-8134543aeba9"
+      (reference "R66") (unit 1) (value "2M2") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/7035631a-1651-43d5-b918-d9c226e7e47d"
+      (reference "R67") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/04180427-de75-4b3b-9aee-00b35268037e"
+      (reference "R68") (unit 1) (value "2M2") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/8c4a3f5f-ba4a-4d83-bba5-fd24484d3ee2"
+      (reference "R69") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/5fb8d671-68af-4690-b241-d1e9e47a1d0a"
+      (reference "R70") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/491d946f-6240-4f22-8e94-d7c367f7eb2a"
+      (reference "R71") (unit 1) (value "50k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/94573a10-76db-49fb-9ee9-1b7f895e3981"
+      (reference "R72") (unit 1) (value "47k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/28f0a997-fe75-4d67-82de-3dd2dbbdb927"
+      (reference "R73") (unit 1) (value "47k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/9e7ccff9-fc90-440c-b68a-e5c77199419a"
+      (reference "R74") (unit 1) (value "22k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/851ed930-2d70-4899-8131-756600ffc332"
+      (reference "R75") (unit 1) (value "47k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/19548c84-538d-40d3-a19e-5cdf7c434ce3"
+      (reference "R76") (unit 1) (value "2M2") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/230118b1-cf2f-45b9-a832-bf41b36dfc8f"
+      (reference "R77") (unit 1) (value "470k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/34da1566-d5c8-4c11-8b57-1626aba29b16"
+      (reference "R78") (unit 1) (value "100R") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/b9b30442-ea1e-42fb-93c1-8b51f48ef9d2"
+      (reference "R79") (unit 1) (value "390k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/a6853caf-0a36-46ec-8078-553deab47d0b"
+      (reference "R80") (unit 1) (value "25k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/52c180be-a06f-47e8-8550-a0d142f84134"
+      (reference "R81") (unit 1) (value "47R") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/727934fb-ab3d-475f-9f8f-6cd56dd6ac37"
+      (reference "R82") (unit 1) (value "2k2") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/726d380f-b57e-4404-91ed-d3e22147152d"
+      (reference "R83") (unit 1) (value "25k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/c52f4d12-e413-4d49-9379-d902dec22e9c"
+      (reference "R84") (unit 1) (value "22k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/c31a0ea1-f5c8-4d04-b73a-e3899a6a692e"
+      (reference "R85") (unit 1) (value "2M2") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/d34f0e1d-f367-4df8-96ee-16670df2b1e0"
+      (reference "R86") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/df3bd151-5714-45d3-b9fc-26f19ab3bb58"
+      (reference "R87") (unit 1) (value "500k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/2d05ae69-eaa2-4b3b-aafa-c74dec8579dc"
+      (reference "R88") (unit 1) (value "220k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/5becfe50-b661-43dc-9d82-262691cf5c53"
+      (reference "R89") (unit 1) (value "2M2") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/99469028-865f-4abb-9e5a-a690e4046a84"
+      (reference "R90") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/0347f68a-9d92-4921-9784-febad8184b71"
+      (reference "R91") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/516aeb61-d376-46a9-90ee-93e9f11c8041"
+      (reference "R92") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/7ef3a6e8-c117-4936-b94d-e2c600e070fa"
+      (reference "R93") (unit 1) (value "1M") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/5835b232-d196-4d6c-813a-8828445141fd"
+      (reference "R94") (unit 1) (value "470") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/ad75dda0-f9ee-428b-8514-f45fde2a82e5"
+      (reference "R95") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/0cfa556b-01bd-460c-8c86-4716e33e4f2e"
+      (reference "R96") (unit 1) (value "500k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/06294262-d44a-4faf-bdb5-2e9835d2b7bf"
+      (reference "R97") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/1a9a7440-64ae-4142-ac73-0e68d6c20642"
+      (reference "R98") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/e8324c22-656d-4135-8d07-933d7aa825cd"
+      (reference "R99") (unit 1) (value "500k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/054c5eb4-afb7-49ce-9cef-bd60e1a246e4"
+      (reference "R100") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/2e00c530-8857-44ef-a654-bbd5e818f64c"
+      (reference "R101") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/b3eaba08-e37e-40c0-9b55-fcb43ee6be84"
+      (reference "R102") (unit 1) (value "47k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/445be0c5-087f-47d8-9511-344276d6b54b"
+      (reference "R103") (unit 1) (value "47k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/d8d58091-349b-4c49-9b55-918d6876b81e"
+      (reference "R104") (unit 1) (value "47k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/720bc589-8349-4376-b1da-4924cbe0b49d"
+      (reference "R105") (unit 1) (value "47k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/4ae2fe39-dc4a-4892-850c-f7e6f76e9f18"
+      (reference "R106") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/3984862a-9ee5-463e-996f-ef6e828f59e3"
+      (reference "R107") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/09c5ef33-5166-4231-8128-f5cb266cd5fc"
+      (reference "R108") (unit 1) (value "2M2") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/9fe09db7-c91b-47ae-a172-0a8520898b78"
+      (reference "R109") (unit 1) (value "4k7") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/3cc48853-738c-4049-9ea5-b968e073b3e7"
+      (reference "R110") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/62b29212-7d89-44f8-a898-d99341f4c0e4"
+      (reference "R111") (unit 1) (value "470k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/dcd04aea-4a62-40c7-993f-5a6bb2b276fc"
+      (reference "R112") (unit 1) (value "1M") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/93b36fc5-ba61-40cc-ac10-3549ebe5e830"
+      (reference "R113") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/f6e27440-3904-4628-9004-0a8481867ecc"
+      (reference "R114") (unit 1) (value "22k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/9058f5e3-ccaa-46f9-95af-66d9818d80e3"
+      (reference "R115") (unit 1) (value "22k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/189d9b44-ce9a-4dbc-92f2-5526f9d8dd88"
+      (reference "R116") (unit 1) (value "82k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/1726de17-b856-4851-9645-5bdf6e5e3d18"
+      (reference "R117") (unit 1) (value "220k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/78c0aa78-fb05-4a34-ba1b-e6c6516e5142"
+      (reference "R118") (unit 1) (value "390k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/a5eda4c6-7f21-4561-895d-c48e5128d544"
+      (reference "R119") (unit 1) (value "470k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/fe0589a9-4c5f-4ebd-8833-9b002bcc735d"
+      (reference "R120") (unit 1) (value "100") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/d7bfc220-64e9-4c8a-a8dd-fca0327e1f71"
+      (reference "R121") (unit 1) (value "1M") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/adc94941-519b-4491-8043-2d5250b7a73b"
+      (reference "R122") (unit 1) (value "2k4") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/000261e6-ff42-435c-aeaa-5601f90f4f1d"
+      (reference "R123") (unit 1) (value "470k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/627bb689-bd41-4e25-91b8-dfd210861db8"
+      (reference "R124") (unit 1) (value "470k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/e956cfb1-708b-40d7-bafa-d4b22eda2a43"
+      (reference "R125") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/465cf967-9e4a-4615-a238-dcc093641bb9"
+      (reference "R126") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/0f34b1af-d4da-4f5a-a4a9-322e11bf2e6d"
+      (reference "R127") (unit 1) (value "1k5") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/af89d63d-3be6-4dcb-a825-41cb31178289"
+      (reference "R128") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/6e1846d6-51fe-40ff-b413-44e9a19834f6"
+      (reference "R129") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/6f394067-3923-44f0-8dff-4b0d6849bf49"
+      (reference "R130") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/d51e8962-87f3-45ab-aef1-e3fd856a9a67"
+      (reference "R131") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/83d7566b-de1e-48c9-ab9b-a66505cf4130"
+      (reference "R132") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/0fc29ed5-bbf7-4378-9866-b8f4102ff88e"
+      (reference "R133") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/d0ae2f0a-8052-4680-9382-bfdcb25a306e"
+      (reference "R134") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/60c818f8-c3a8-42c6-9aeb-4c040b67ef78"
+      (reference "R135") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/0162a063-6b18-481d-8d49-8102f80fd169"
+      (reference "R136") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/3d02ff62-2d1f-4fe1-86cc-5f35b1f013e3"
+      (reference "R137") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/007cfa99-37e7-41cb-97d7-4198cdc8b8c6"
+      (reference "R138") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/c686a11e-75f9-48b1-9102-a14995e94dff"
+      (reference "R139") (unit 1) (value "20k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/7ae9db93-5a71-4e8b-9990-fbf70035257d"
+      (reference "R140") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/b31d367e-b664-426b-bb12-de613b9eb5eb"
+      (reference "R141") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/e9d6bb95-c949-4bf2-b502-19ac74a12861"
+      (reference "R142") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/38323698-43c6-4d1a-8568-3b072cb8ab8b"
+      (reference "R143") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/916d0048-5172-45dd-8a54-3f978b909957"
+      (reference "R144") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/e758161a-08a5-4899-8b1d-a5925f930592"
+      (reference "R145") (unit 1) (value "10k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/d7672fbf-07af-46cb-b25a-b1cf153688c3"
+      (reference "R146") (unit 1) (value "R") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/6fa25991-e746-4e90-982b-6a69cacbb126"
+      (reference "R147") (unit 1) (value "R") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/2607f855-1e7d-49dc-b886-2c1b0ba75d75"
+      (reference "R148") (unit 1) (value "2M2") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/00f07a35-577d-40c1-85f9-6045fff37eff"
+      (reference "R149") (unit 1) (value "2M2") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/9d415d58-6dd2-4140-a7d7-c446a1d21cc0"
+      (reference "R150") (unit 1) (value "1k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/cfc204a7-84fb-4c54-86db-b118bccefba2"
+      (reference "R151") (unit 1) (value "560") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/ef83bd05-2f8e-4180-92eb-f5e72e3a31d0"
+      (reference "R152") (unit 1) (value "47") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/da4a9a8e-5546-4863-9b48-4e6e628f101c"
+      (reference "R153") (unit 1) (value "1k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/3d0bbc8c-e22e-4169-9bae-1629263e8bc5"
+      (reference "R154") (unit 1) (value "47k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/5da53957-2029-42b6-bcd9-6a10253ec401"
+      (reference "R155") (unit 1) (value "47k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/95d7c7a6-7b10-4883-9eba-b02bf3f981c2"
+      (reference "R156") (unit 1) (value "1k5") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/2971d66f-788a-49a1-aeaa-38768f09475a"
+      (reference "R157") (unit 1) (value "1M") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/60d004f8-6bbf-4eea-a969-c846da291be7"
+      (reference "R158") (unit 1) (value "470k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/0b22c3a0-50e1-437b-8c04-827ec9c1413b"
+      (reference "R159") (unit 1) (value "470k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/e7adf8c8-a780-4083-8914-d4d6cd538506"
+      (reference "R160") (unit 1) (value "1M2") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/8fc81816-185d-461f-861c-2f13bd9a77b2"
+      (reference "R161") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/b31e16ee-62f3-4a2c-a415-c04b2c5354c4"
+      (reference "R162") (unit 1) (value "22k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/a130a718-36f7-45c3-bdba-e20050fddc47"
+      (reference "R163") (unit 1) (value "470k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/f9b82320-3418-4671-8c05-de8c886ed568"
+      (reference "R164") (unit 1) (value "470k") (footprint "dvhx-kicad-library:Resistor_0805")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/e5a329ea-a9e2-498d-8685-47a4c4e21038"
+      (reference "SW1") (unit 1) (value "Switch_1P2T") (footprint "dvhx-kicad-library:Switch_1P2T")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/2d090eeb-2335-4bb0-9c9f-323f44d0d690"
+      (reference "TONE2") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/1702e0e2-7dfd-459e-8adb-c7f77b929cf4"
+      (reference "Tone1") (unit 1) (value "100k") (footprint "dvhx-kicad-library:Resistor_trimmer_RM065")
+    )
+    (path "/0e3b0446-4649-4f96-941f-62a4a86d933e/afae4b0c-da63-43a7-84d0-bfc7f74635d5"
+      (reference "U1") (unit 1) (value "Battery_9V") (footprint "dvhx-kicad-library:Battery_holder_9V")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/69e05192-f084-4bb3-aff6-f350c539f1a8"
+      (reference "U2") (unit 1) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/74d431fd-cb2a-4a57-b8ad-03906426963d"
+      (reference "U2") (unit 2) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/ccf65e24-b980-469f-8862-e397985c8f5a"
+      (reference "U2") (unit 3) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/f2dee8c1-5a31-4399-9545-0459d2102e93"
+      (reference "U3") (unit 1) (value "TL072") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/8e01aaa1-ac82-4958-a118-f2ebc18eeeb3"
+      (reference "U3") (unit 2) (value "TL072") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/e9c4bd5e-e01a-4fa6-931d-aa35acdafeac"
+      (reference "U3") (unit 3) (value "TL072") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/f2be64c9-5e66-43eb-ba8d-ad7a68726939"
+      (reference "U4") (unit 1) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/ce85c102-1fef-4389-8ba3-6a87c2f5dfbb"
+      (reference "U4") (unit 2) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/899e5211-c593-49d2-9379-dca02760081d"
+      (reference "U4") (unit 3) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/0b013bd4-bb40-4b40-8cf1-70688da402a9"
+      (reference "U5") (unit 1) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/5eaa9e76-5b43-478c-93f8-f29a5edd83cf/d472a504-187f-4e54-ae8c-b347eab8e629"
+      (reference "U5") (unit 2) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/4762f660-492c-4b50-ac7b-e9ba37593ef4"
+      (reference "U5") (unit 3) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/5aa1bf80-b5f3-4412-9101-4b142ad4832e"
+      (reference "U6") (unit 1) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/48ced388-1009-47c0-9121-927d687fa0e0"
+      (reference "U6") (unit 2) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/078f40b5-e5e9-4b9c-9265-3cea0b016740"
+      (reference "U6") (unit 3) (value "Opamp_dual") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/5164c31f-39f4-4fbd-841e-0a3cf64ee8c8"
+      (reference "U7") (unit 1) (value "TL072") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/2242e86d-25dd-4ca3-8b12-cbc6ab7d2f7b"
+      (reference "U7") (unit 2) (value "TL072") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/ca795901-369a-447c-b7c7-aa46fd6b6fcc"
+      (reference "U7") (unit 3) (value "TL072") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/f689bf53-dbb3-40d9-9c8a-55df8db6c06a"
+      (reference "U8") (unit 1) (value "TL072") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/ca3be8de-4395-4370-be78-e670e8214a31"
+      (reference "U8") (unit 2) (value "TL072") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/e21d1c57-947d-4c2a-8639-6d079a329117"
+      (reference "U8") (unit 3) (value "TL072") (footprint "dvhx-kicad-library:SOIC-8")
+    )
+    (path "/50e85761-696c-43cf-a30a-bd0ef3b7a5ca/c2555086-fda8-48eb-9686-fe4c007837ab"
+      (reference "V1") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/f245ec22-b700-4dfb-bf2d-d872035f0471/e143d59a-5d09-4371-8a64-9bd9e845d66f"
+      (reference "V2") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/271c8302-d8a2-4c2e-977e-324a6eed6a16/fa802c98-2433-47f3-84f4-32a367b31c79"
+      (reference "V3") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/825065db-dc11-43e9-aa2e-59e6b2cd21f3/2725b094-0b62-4b60-bf9e-8f5e8ba23cf2"
+      (reference "V4") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/bffb26c2-67ed-45b3-88dc-db0e109e9b2d/7adab00a-bb67-490b-8a35-b964f0fb1b81"
+      (reference "V5") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/d0d4f553-fa9d-4102-9d57-00ae57584fca/46852c85-88aa-421d-9126-b3e8769eb11c"
+      (reference "V6") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/aa76f3ed-6f50-4f29-b290-276b3f3318d1/82e15225-a105-45b2-84d4-4b70931897e0"
+      (reference "V7") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/98601396-516b-4f99-b971-aae10874eaa3/08fac9fb-bd01-4e29-bb0a-a4ebc41404d7"
+      (reference "V8") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/6f9180cf-15ba-4fe0-aac0-c0c15bccbef8/7e8932c9-1575-45e3-a67b-557002264c0f"
+      (reference "V9") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/8f6792ec-227f-4eb4-bb04-a25dfa84c358/807d0da3-b5ba-474e-8f38-b9afb26dbbb9"
+      (reference "V10") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/a6e7e6c2-e06b-4f6e-8588-3ecb4408248c/f8cc4c2c-1ee0-4ed6-8e75-c04b5cd967d7"
+      (reference "V11") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/3cef2940-746c-45e3-9107-83eef849fa15/043b7806-1e59-4f7a-9ca8-a5735f329018"
+      (reference "V12") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/f01efdb1-881c-40a2-bc25-404d9fd4e172/05ff758d-5028-4f3e-9e58-5a6f96445ca4"
+      (reference "V13") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/c6e0a66c-1a0d-4a98-bcfd-2d9fcc773fcc/6d1860a3-107e-4663-8919-17e3714526b4"
+      (reference "V14") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/2a37aec8-f331-4b5e-88f6-7de4e5263d48/d60bdeef-abc8-4d91-9758-766bf1c793dd"
+      (reference "V15") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/2144bad2-b640-402c-9e59-723b5e1c74c4/02601bee-f883-4a53-9d82-fa4ed84c4f06"
+      (reference "V16") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/f9eb455a-f9b0-4a40-aeb8-7fec771c76fc/7a4942ad-55e8-40f2-9737-2e677de97e9c"
+      (reference "V17") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/ddb65161-b9bf-499c-8e93-e4bfc7609ac2/a5dbdd13-f197-492a-b006-ff96a3dae79d"
+      (reference "V18") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/7db6856c-56e0-424a-afcb-36cf00770d5a/5806f166-c5b7-446b-9db4-5eae522d94cc"
+      (reference "V19") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/4bfb669e-77cc-4b41-aa01-7ab22529f5c4/92c05ca5-18ef-4e07-a07f-f6951e89e5fd"
+      (reference "V20") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/7834f5a0-eb26-48f3-86a4-91d34cfb1b1f/61538201-9a04-4cd3-9876-ec112a29b019"
+      (reference "V21") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+    (path "/5d24333a-d0c2-4736-9c83-4ed99302ef17/279e4eda-1e5d-409d-8784-1b9a08415a95"
+      (reference "V22") (unit 1) (value "Header_1x2_male") (footprint "dvhx-kicad-library:Header_1x2_male_upright")
+    )
+  )
+)
