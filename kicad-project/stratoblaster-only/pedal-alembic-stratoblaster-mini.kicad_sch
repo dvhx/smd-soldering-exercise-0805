@@ -1,0 +1,2249 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c71fb5b2-a9f1-4f50-86c9-13d825af58db")
+	(paper "A4")
+	(lib_symbols
+		(symbol "dvhx-kicad-library-2:Header_1x2_PN"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.254 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Header_1x2_PN"
+				(at 0 4.191 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "dvhx-kicad-library-2:Battery_JST_XH_female_2pin"
+				(at -0.508 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Header_1x2* Header_1x2_male_upright_battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Header_1x2_PN_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.254 0.254)
+					(end 0.254 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.254 -2.286)
+					(end 0.254 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Header_1x2_PN_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dvhx-kicad-library:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.286 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C"
+				(at 2.286 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "dvhx-kicad-library:Capacitor_0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy -1.27 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.508) (xy -1.27 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dvhx-kicad-library:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "GND"
+				(at 3.302 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 3.302 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -3.81) (xy 0.254 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 1.27)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dvhx-kicad-library:Header_1x1_male"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.254 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Header_1x1_male"
+				(at 0 4.191 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "dvhx-kicad-library:Header_1x1_male_upright"
+				(at 1.016 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Header_1x1_male_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.254 0.254)
+					(end 0.254 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Header_1x1_male_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dvhx-kicad-library:MMBFJ201"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 2.54 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MMBFJ201"
+				(at 6.858 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "dvhx-kicad-library:SOT23-DSG"
+				(at -0.762 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "JFET transistor J201 in SOT23 package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBFJ201_0_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0) (xy -3.302 -0.508) (xy -3.302 0.508) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy -1.778 -2.032)
+					)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 2.8398)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.524) (xy -1.778 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.524) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MMBFJ201_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dvhx-kicad-library:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R"
+				(at 2.032 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "dvhx-kicad-library:Resistor_0805"
+				(at 18.288 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(polyline
+					(pts
+						(xy -0.762 2.54) (xy 0.762 2.54) (xy 0.762 -2.54) (xy -0.762 -2.54) (xy -0.762 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 130.81 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2084643e-aed9-4235-9de5-0ead11b73eb7")
+	)
+	(junction
+		(at 153.67 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59ca4b19-3874-491e-811e-bda16ee3798e")
+	)
+	(junction
+		(at 130.81 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69562c2b-1990-4561-9b37-76275904b1a0")
+	)
+	(junction
+		(at 142.24 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b5296ee-5691-42c4-a215-5887daf9dc7a")
+	)
+	(junction
+		(at 129.54 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b63dfb9-c0a3-4318-a2b7-3ef3cc8d87c0")
+	)
+	(junction
+		(at 130.81 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0e9d1ce-80ea-42ee-967e-9ed906fb4ef2")
+	)
+	(wire
+		(pts
+			(xy 153.67 124.46) (xy 142.24 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1302ab8a-cc8b-48d1-ab30-21152ea124f4")
+	)
+	(wire
+		(pts
+			(xy 105.41 87.63) (xy 109.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bc198b-1157-4c2b-81f1-089f3c3f1987")
+	)
+	(wire
+		(pts
+			(xy 147.32 78.74) (xy 153.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f12ee82-3a60-439a-904b-c0ab5049727a")
+	)
+	(wire
+		(pts
+			(xy 142.24 109.22) (xy 142.24 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222cc7ff-d7ce-464a-b551-7003fa5f9e21")
+	)
+	(wire
+		(pts
+			(xy 130.81 99.06) (xy 130.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27af8130-b44e-4d94-9808-b267bf78a765")
+	)
+	(wire
+		(pts
+			(xy 119.38 63.5) (xy 119.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c080d93-5d3d-4db9-8987-a50fbbdec798")
+	)
+	(wire
+		(pts
+			(xy 161.29 58.42) (xy 161.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d135261-1f27-46ef-a488-4f0e706ad719")
+	)
+	(wire
+		(pts
+			(xy 130.81 124.46) (xy 130.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379f883d-084e-42c1-98ef-7a58a287198f")
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 124.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a40c0aa-568c-4628-94a4-3be4897a7f85")
+	)
+	(wire
+		(pts
+			(xy 153.67 95.25) (xy 153.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fb6a6d-199b-42ab-9d92-6dd61aabfc52")
+	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 161.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469bbb78-5433-43c5-b052-1d4044818f81")
+	)
+	(wire
+		(pts
+			(xy 129.54 66.04) (xy 130.81 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61357f89-c320-489e-b3a3-18c6ebd51bfe")
+	)
+	(wire
+		(pts
+			(xy 177.8 62.23) (xy 177.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b95f9d-edb0-47f8-9fa4-fc28da2111d0")
+	)
+	(wire
+		(pts
+			(xy 130.81 115.57) (xy 130.81 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c63175-6016-41a8-8718-dfad31e00090")
+	)
+	(wire
+		(pts
+			(xy 129.54 66.04) (xy 129.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dcea27a-73fa-4c36-a405-1b2ce5d9be27")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 129.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8552039b-0526-4794-afaf-210c19caf6c8")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 130.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f155241-852b-4e55-bdf4-ea10071ab928")
+	)
+	(wire
+		(pts
+			(xy 119.38 60.96) (xy 129.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a125e476-8992-48b8-99ca-c8bfcdf791e4")
+	)
+	(wire
+		(pts
+			(xy 130.81 99.06) (xy 130.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a996e304-7fe2-4955-9fc7-2124d1a97051")
+	)
+	(wire
+		(pts
+			(xy 153.67 78.74) (xy 156.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b02a6053-1e6e-4d18-bbd9-54d63c0893b9")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 142.24 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be01f85f-ff82-4de5-b5dd-558e317dbdb7")
+	)
+	(wire
+		(pts
+			(xy 130.81 124.46) (xy 142.24 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be9cda9b-0123-44d1-95d8-d8f4f771f4d8")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 130.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d97069-1833-4d92-b679-34af7def7fde")
+	)
+	(wire
+		(pts
+			(xy 119.38 68.58) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfc781d-600f-428d-ab39-2e6b5a8d498e")
+	)
+	(wire
+		(pts
+			(xy 161.29 62.23) (xy 166.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14c99bd-2dda-44d1-b9d6-3fbfe3136ed6")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea515414-996b-422e-9690-0565be437b49")
+	)
+	(wire
+		(pts
+			(xy 130.81 76.2) (xy 130.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf612cf-5c55-456d-b0ae-fb1aa6821bcc")
+	)
+	(wire
+		(pts
+			(xy 153.67 105.41) (xy 153.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52e4b5b-3b56-419a-9e11-592ea08e399f")
+	)
+	(wire
+		(pts
+			(xy 173.99 62.23) (xy 177.8 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe734301-cff9-4386-a960-524518199113")
+	)
+	(global_label "+9V"
+		(shape input)
+		(at 129.54 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34a4fc37-565e-45ef-a8fc-66d333adc014")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.6843 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:GND")
+		(at 177.8 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "039a5921-0fb7-4dda-9e27-fc329fe1f26d")
+		(property "Reference" "#GND018"
+			(at 181.102 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.102 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "ebe890b4-fbb0-4061-a3cc-6c80aacc10c7")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "#GND018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:C")
+		(at 143.51 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ea1a0e9-52bb-4959-820c-e56c5c992d58")
+		(property "Reference" "C36"
+			(at 143.51 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u5"
+			(at 143.51 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library:Capacitor_0805"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "E"
+			(at 143.51 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9be3bdb5-ec21-47f3-bb0c-4f615e790339")
+		)
+		(pin "2"
+			(uuid "abf708e6-b733-496f-ada4-786f9e609fa1")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:GND")
+		(at 130.81 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f06801d-dff4-4b52-9f12-fcad6d435983")
+		(property "Reference" "#GND017"
+			(at 134.112 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.112 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "6862ddc2-5f08-40a4-a3c9-ef2a41238633")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "#GND017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:R")
+		(at 130.81 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "396d2266-64ac-44b6-9587-292a1fc9076b")
+		(property "Reference" "R44"
+			(at 133.35 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "12k"
+			(at 133.35 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library:Resistor_0805"
+			(at 112.522 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "F"
+			(at 133.35 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "70dc7d74-c46c-40ad-8e42-b101e864795b")
+		)
+		(pin "2"
+			(uuid "b587327c-3075-4154-aebb-bce142ede91c")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library-2:Header_1x2_PN")
+		(at 114.3 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43ccec7c-94a4-4bf5-a896-5c0154a85a33")
+		(property "Reference" "J1"
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Header_1x2_PN"
+			(at 114.3 56.769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library-2:Header_1x2_male_upright_battery"
+			(at 114.808 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "bc651d7a-f60d-488f-9e42-a5abcba104ec")
+		)
+		(pin "P"
+			(uuid "05645b4f-f62a-482b-a8c9-de935c439075")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:Header_1x1_male")
+		(at 161.29 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "774eb6f6-f7a6-4bbd-afa6-91eaa6394f8a")
+		(property "Reference" "O10"
+			(at 163.83 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Header_1x1_male"
+			(at 163.83 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library:Header_1x1_male_upright"
+			(at 162.306 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b5cbae1-9434-449a-a703-cfda9a0822df")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "O10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:Header_1x1_male")
+		(at 100.33 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ddc0c3b-77a9-4525-a561-c8ed92a3a155")
+		(property "Reference" "I10"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Header_1x1_male"
+			(at 100.33 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library:Header_1x1_male_upright"
+			(at 101.346 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4401399e-2514-4494-8982-665deedb2a7f")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "I10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:R")
+		(at 114.3 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "825771fe-9ee6-4249-9bfd-0a9bbe808bb0")
+		(property "Reference" "R42"
+			(at 114.3 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68k"
+			(at 114.3 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library:Resistor_0805"
+			(at 117.856 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "B"
+			(at 114.3 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a22d487-cd0f-498f-80f6-793c8f17fb49")
+		)
+		(pin "2"
+			(uuid "b92e62b5-e577-46c2-ab88-e9462fd0b24a")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:R")
+		(at 130.81 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9168e935-20a4-4f0c-85a3-f8217d7fc637")
+		(property "Reference" "R43"
+			(at 133.35 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 133.35 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library:Resistor_0805"
+			(at 149.098 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "A"
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c04cb5d2-876f-4fe9-8c1f-0e90e31d4fc1")
+		)
+		(pin "2"
+			(uuid "0f770631-c218-4b12-a57c-94a4b6b8b060")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:R")
+		(at 153.67 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a5b1940-344a-4ad2-8217-2119a791fafb")
+		(property "Reference" "R46"
+			(at 156.21 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 156.21 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library:Resistor_0805"
+			(at 135.382 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "J"
+			(at 156.21 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "b8c7ccb0-6b2a-43bd-afed-2370c475df5b")
+		)
+		(pin "2"
+			(uuid "319951d8-1463-49b6-b9c7-a2c61748bd05")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:MMBFJ201")
+		(at 130.81 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad453895-1adb-4c10-b762-8cb6b192ad05")
+		(property "Reference" "Q12"
+			(at 133.35 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBFJ201"
+			(at 133.35 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library:SOT23-DSG"
+			(at 130.048 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "D"
+			(uuid "d4c8f4f6-c1cb-4be5-a931-c374a21e16e2")
+		)
+		(pin "G"
+			(uuid "26a62404-4192-4acd-9cdf-a7ce4f21b221")
+		)
+		(pin "S"
+			(uuid "b1cc779f-305d-410a-a124-6196653f00b4")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:GND")
+		(at 121.92 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c58e420d-d692-41b9-a9fb-a391eee25c5f")
+		(property "Reference" "#GND01"
+			(at 125.222 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.222 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "878d3c6d-d288-4313-b27b-fa4e8c5d49e0")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:R")
+		(at 142.24 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce4770d4-e612-4919-94b8-c9fa0adc53ee")
+		(property "Reference" "R45"
+			(at 144.78 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0-50k"
+			(at 144.78 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library:Resistor_0805"
+			(at 123.952 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "G"
+			(at 144.78 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "834ee8e1-5300-4fae-99f5-e312b0c6bd63")
+		)
+		(pin "2"
+			(uuid "8755d7cb-fe10-45ef-85cc-9f552eeeabb0")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:C")
+		(at 170.18 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f97d5b4a-1701-4b0d-8f0b-7524e527914a")
+		(property "Reference" "C37"
+			(at 170.18 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 170.18 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library:Capacitor_0805"
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "V"
+			(at 170.18 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "788b0d5a-af17-4254-96c5-2c42b3780577")
+		)
+		(pin "2"
+			(uuid "3c2eb42f-9013-4478-a977-42449c129146")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dvhx-kicad-library:C")
+		(at 142.24 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9819dd7-c72f-4430-8e74-768f2ed70ce0")
+		(property "Reference" "C35"
+			(at 144.78 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 144.78 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "dvhx-kicad-library:Capacitor_0805"
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field4" "H"
+			(at 146.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26fa765e-b7f9-4c31-9d38-bd6975044d1c")
+		)
+		(pin "2"
+			(uuid "1b24295a-a204-4897-9e07-ecb686541dd8")
+		)
+		(instances
+			(project "pedal-alembic-stratoblaster-mini"
+				(path "/c71fb5b2-a9f1-4f50-86c9-13d825af58db"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
